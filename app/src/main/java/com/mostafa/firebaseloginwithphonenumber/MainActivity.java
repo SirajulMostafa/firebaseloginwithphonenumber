@@ -9,13 +9,24 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.hbb20.CountryCodePicker;
 
 public class MainActivity extends AppCompatActivity {
 private  Button login;
 private EditText phone;
 private CountryCodePicker countryCodePicker;
+FirebaseAuth mAuth = FirebaseAuth.getInstance();
+    @Override
+    protected void onStart() {
+        super.onStart();
 
+        FirebaseUser mFirebaseUser = mAuth.getCurrentUser();
+        if (mFirebaseUser != null) {
+            startActivity(new Intent(MainActivity.this, Dashboard.class));
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

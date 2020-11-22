@@ -34,7 +34,15 @@ public class VerificationOtp extends AppCompatActivity {
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private String mVerificationId;
     private PhoneAuthProvider.ForceResendingToken mResendToken;
+    @Override
+    protected void onStart() {
+        super.onStart();
 
+        FirebaseUser mFirebaseUser = mAuth.getCurrentUser();
+        if (mFirebaseUser !=null){
+            startActivity(new Intent(VerificationOtp.this,Dashboard.class));
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
