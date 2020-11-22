@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "379533211366",
+    "firebase_url": "https://fir-authregemailpassword.firebaseio.com",
+    "project_id": "fir-authregemailpassword",
+    "storage_bucket": "fir-authregemailpassword.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379533211366:android:883f11ee7cd4207d0c2d27",
+        "android_client_info": {
+          "package_name": "com.mostafa.firebaseauthregwithemailpassword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379533211366-i92cjfcpmsd83h3t140srlpfv7vujumq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9b4V8wQd-FPCzdzyf8YHw2DJOjfh8gsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379533211366-i92cjfcpmsd83h3t140srlpfv7vujumq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379533211366:android:204d318a57d72b210c2d27",
+        "android_client_info": {
+          "package_name": "com.mostafa.firebaseloginwithphonenumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379533211366-i92cjfcpmsd83h3t140srlpfv7vujumq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9b4V8wQd-FPCzdzyf8YHw2DJOjfh8gsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379533211366-i92cjfcpmsd83h3t140srlpfv7vujumq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
